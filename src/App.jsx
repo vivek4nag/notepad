@@ -1,10 +1,14 @@
+import NotePad from "./NotePad"
 
 
 function App() {
 
   return (
     <>
-      <h1>notepad</h1>
+    <div className="w-full h-screen">
+      {/* <h1>notepad</h1> */}
+      <NotePad/>
+      </div>
     </>
   )
 }
